@@ -1,0 +1,21 @@
+
+class Infosys{
+	
+	String name;
+	int jd;
+	String date;
+}
+
+public class ClassAndObject {
+	public static void main(String[] args) {
+		
+		Infosys Infy = new Infosys();
+		Infy.name = "Aswathy Mahadevan";
+		Infy.jd = 13-07-20;
+		Infy.date = "Monday";
+		
+		System.out.println(Infy.date);
+		
+	}
+
+}

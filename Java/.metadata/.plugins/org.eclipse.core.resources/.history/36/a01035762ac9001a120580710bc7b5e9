@@ -1,0 +1,52 @@
+import java.util.Scanner;
+
+//Write a program to print the area of two rectangles having sides (4,5) and (5,8) respectively by creating a class
+//named 'Rectangle' with a method named 'Area' which returns the area and length and breadth passed as parameters to its constructor.
+
+class Rectangle {
+
+	static int length;
+	static int breadth;
+	
+
+	static int getArea() {
+		int a = length * breadth;
+		return a;
+	}
+
+}
+
+public class areaofRectangle {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner (System.in);
+		
+//		int r1.length = input.nextInt();
+
+		Rectangle r1 = new Rectangle();
+		
+		int length = input.nextInt();
+		int breadth  = input.nextInt();
+		
+		System.out.println("Enter the length of the Rectangle: " + length);
+		System.out.println("Enter the breadth of the Rectangle: " + breadth);
+		
+//		r1.length = 4;
+//		r1.breadth = 5;
+//		//Rectangle.getArea();
+		
+		int area1 = Rectangle.getArea();
+		
+		System.out.println("The area of the rectangle is: " + area1 );
+
+//		Rectangle r2 = new Rectangle();
+//		r2.length = 5;
+//		r2.breadth = 8;
+//		int area2 = Rectangle.getArea();
+//		
+//		System.out.println("The area of the second rectangle is: " + area2);
+
+	}
+
+}

@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class printStar {
+	
+	public static void main(String[] args) {
+	
+		String pattern = "*";
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter the number:");
+		int star = input.nextInt();
+		
+		
+		for (int i = 0; i <= star; i++) {
+			
+			System.out.println("*");
+			
+		}
+		
+		
+	}
+
+}

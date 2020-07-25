@@ -1,0 +1,13 @@
+package appArray;
+
+public class appArray {
+	public static void main(String[] args) {
+		
+		int[] values;
+		values = new int[3];
+		
+		System.out.println(values[0]);
+		
+	}
+
+}

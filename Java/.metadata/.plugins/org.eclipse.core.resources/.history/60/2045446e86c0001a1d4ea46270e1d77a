@@ -1,0 +1,9 @@
+
+public class multiplyNum {
+	public static void main(String[] args) {
+		
+		int myNum = 0;
+		
+	}
+
+}

@@ -1,0 +1,27 @@
+
+package appUserInput;
+
+import java.util.Scanner;
+
+public class appUserInput {
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+
+		System.out.printf("Please enter a new line of text:", input);
+
+		String line = input.nextLine();
+
+		System.out.println("You entered: " + line);
+
+	}
+
+	{
+		Scanner myInt = new Scanner(System.in);
+		System.out.println("Please enter your age: " + myInt);
+		int Value = myInt.nextInt();
+		System.out.println("You entered: " + myInt);
+
+	}
+
+}

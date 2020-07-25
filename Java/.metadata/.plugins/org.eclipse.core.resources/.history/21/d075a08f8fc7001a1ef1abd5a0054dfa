@@ -1,0 +1,30 @@
+
+package javaMethods;
+
+class Person {
+
+//Classes can contain 2 things.
+//1. Data
+//2. Subroutines (Methods)
+
+	String name;
+	int age;
+
+}
+
+public class MethodTryOut {
+
+	public static void main(String[] args) {
+
+		Person person1 = new Person();
+		person1.name = "Aswathy Mahadevan";
+		person1.age = 24;
+
+		Person person2 = new Person();
+		person2.name = "Mahadevan";
+		person2.age = 29;
+
+		System.out.println("The age of " + person1.name + " is " + person1.age);
+	}
+
+}

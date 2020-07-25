@@ -1,0 +1,36 @@
+
+//Assign and print the roll number, phone number and address
+//of two students having names "Sam" and "John" respectively 
+//by creating two objects of class 'Student'.
+
+class Student {
+	String name;
+	String pn;
+	int rl;
+	String add;
+}
+
+public class appStudents {
+
+	public static void main(String[] args) {
+		
+		Student person1 = new Student();
+		person1.name = "Mahadevan";
+		person1.rl = 1;
+		person1.pn = "9746227322";
+		person1.add = "Tc 41/1700, Jagatha House, Manacaud";
+		
+		Student person2 = new Student();
+		person2.rl = 2;
+		person2.pn = "6238065670";
+		person2.name = "Aswathy";
+		person2.add = "St Thoma Church, Koovapally";
+		
+		System.out.println("I am " + person1.name) "with roll number " + person1.rl ". My phone is " + person.pn " and address is" person1.add;
+				
+		System.out.printf("I am %s with roll number %d. My phone number is %s and address is %s.", person2.name, person2.rl, person2.pn, person2.add );
+		
+		
+		
+	
+}}

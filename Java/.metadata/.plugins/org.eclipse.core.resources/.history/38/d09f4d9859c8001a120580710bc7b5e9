@@ -1,0 +1,33 @@
+class Person {
+	
+	String name;
+	int age;
+	
+	void speak() {
+		System.out.println("Hello");
+	}
+	
+	int getAge() {
+		return age;
+	}
+	
+}
+
+public class getterReturns {
+	
+	public static void main(String[] args) {
+		
+		Person person1 = new Person();
+		person1.name = "Aswathy";
+		person1.age = 25;
+		person1.speak();
+		
+		System.out.println("My name is " + person1.name);
+		int age = person1.age;
+		
+		
+	
+		
+	}
+
+}
